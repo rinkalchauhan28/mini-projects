@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!--navigation bar-->
+ <header>
+   <nav class="navbar" id="topNav">
+    <div class="logo">VivaDecor</div>
+    <div class="nav-link">    
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Support</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="handle()"> <i class="fa fa-bars"></i></a>
+    </nav>
+ </header>
+<!--Hero Section-->
+ <section class="hero">
+  <!--left section-->
+    <div class="hero-content">
+      <h1>Interior Design</h1>
+      <p>
+        Step into a world where the art of Interior Design is meticulously
+        crafted to bring together timeless elegance and cutting-edge
+        modern innovation, allowing you to transform your living spaces
+        into the epitome of luxury and sophistication.
+      </p>
+     <button class="btn-primary">Start Project</button>  
+    </div>
+    <!--right section-->
+     <div class="hero-images">
+      <div class="img-box top-img">
+        <img src="pic 1.png" alt="Interior">
+      </div>
+    </div>
+  </section>
+
+<!-- Super Premium Footer -->
+<footer class="footer">
+  <div class="footer-bottom">
+    <p>&copy; 2026 VivaDecor. All Rights Reserved.</p>
+  </div>
+</footer>
+<script>
+    let nav = document.querySelector('#topNav');
+
+    function handle() {
+        nav.classList.toggle('demo');
+    }
+</script>
+</body>
+</html>
